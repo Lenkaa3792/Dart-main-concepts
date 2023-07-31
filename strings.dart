@@ -18,10 +18,13 @@ void main() {
   print(name.indexOf("o"));
   print(name.contains("e"));
 
-  //string interpolation- adding two or more string variables
+  //string concatenation- adding two or more string variables
   String greeting = "Hello";
   String greeting2 = " World";
   print(greeting + greeting2);
+  print(greeting + " " + greeting2);
+  
+
   //string interpolation -adding string variables to a string/sentence
   print("The greeting of each language is ${greeting + greeting2}");
 }
