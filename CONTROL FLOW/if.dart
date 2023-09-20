@@ -1,11 +1,8 @@
-// if statement/
-void main () {  
-  // define a variable which holds a numeric value  
- var age = 16;  
-  
- // if statement check the given condition  
- if (age>18){  
-    print("You are eligible for voting");  
- };  
-print("You are not eligible for voting");   
-} 
+// if statement outputs depending on a certain conditional expression
+void main() {
+  var age = 10;
+  if (age > 18) {
+    print("Mariam is a voter in Kenya");
+  }
+  print("Mariam is still young to vote");
+}

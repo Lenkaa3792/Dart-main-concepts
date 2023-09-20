@@ -1,16 +1,17 @@
 // if else if statement
+// we want to give remarks to a student based on his/her marks in CRE subject
 void main() {
-  var marks = 9;
-  if (marks > 80) {
-    print("Excellent");
+  var CRE = 7;
+  if (CRE > 80) {
+    print("Fantastic job");
   } 
-  else if (marks > 75) {
-    print("Good Job kid");
+  else if (CRE >= 70) {
+    print("good job student!");
   } 
-  else if (marks > 50) {
-    print("do more studies");
+  else if (CRE > 50) {
+    print("Average and good job student!");
   } 
   else {
-    print("Repeat");
+    print("Attend remedial classes");
   }
 }
